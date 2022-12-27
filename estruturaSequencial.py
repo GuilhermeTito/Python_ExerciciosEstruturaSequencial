@@ -1,2 +1,2 @@
 import moduloExercicios
-moduloExercicios.ex01()
+moduloExercicios.ex03()
