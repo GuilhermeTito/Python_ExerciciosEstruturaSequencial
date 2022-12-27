@@ -1,10 +1,12 @@
 import math
 
 def ex01():
+    print("Exercício 1.\n")
     print("Alo, Mundo!")
     input("Pressione enter para continuar...")
 
 def ex02():
+    print("Exercício 2.\n")
     x = input("Digite um número: ")
     print(x)
     input("Pressione enter para continuar...")
@@ -18,6 +20,7 @@ def ex03():
     input("Pressione enter para continuar...")
 
 def ex04():
+    print("Exercício 4.\n")
     notas = [0,0,0,0]
     soma = 0
     i = 0
@@ -34,24 +37,28 @@ def ex04():
     input("Pressione enter para continuar...")
 
 def ex05():
+    print("Exercício 5.\n")
     metros = float(input("Digite uma distância em metros: "))
     centimetros = metros * 100
     print("%.2f metros é igual a %.2f centímetros."%(metros, centimetros))
     input("Pressione enter para continuar...")
 
 def ex06():
+    print("Exercício 6.\n")
     raio = float(input("Digite o raio do círculo em centímetros: "))
     area = math.pi * (raio * raio)
     print("A área do círculo é de %.2f centímetros quadrados."%(area))
     input("Pressione enter para continuar...")
 
 def ex07():
+    print("Exercício 7.\n")
     lado = float(input("Digite o comprimento do lado do quadrado em centímetros: "))
     dobroArea = 2 * (lado * lado)
     print("O dobro da área do quadrado é %.2f centímetros quadrados."%(dobroArea))
     input("Pressione enter para continuar...")
 
 def ex08():
+    print("Exercício 8.\n")
     sHora = float(input("Digite o quanto você ganha por hora em reais: "))
     horasMes = float(input("Digite o número de horas que você trabalha por mês: "))
     sMes = sHora * horasMes
@@ -59,18 +66,21 @@ def ex08():
     input("Pressione enter para continuar...")
 
 def ex09():
+    print("Exercício 9.\n")
     tempF = float(input("Digite a temperatura em graus Fahrenheit: "))
     tempC = 5 * ((tempF - 32) / 9)
     print("A temperatura em graus Celsius é %.2f."%(tempC))
     input("Pressione enter para continuar...")
 
 def ex10():
+    print("Exercício 10.\n")
     tempC = float(input("Digite a temperatura em graus Celsius: "))
     tempF = (tempC * 9 / 5) + 32
     print("A temperatura em graus Fahrenheit é %.2f."%(tempF))
     input("Pressione enter para continuar...")
 
 def ex11():
+    print("Exercício 11.\n")
     int1 = int(input("Digite um número inteiro: "))
     int2 = int(input("Digite outro número inteiro: "))
     real = float(input("Digite um número real: "))
@@ -83,12 +93,14 @@ def ex11():
     input("Pressione enter para continuar...")
 
 def ex12():
+    print("Exercício 12.\n")
     altura = float(input("Digite sua altura em metros: "))
     pesoIdeal = (72.7 * altura) - 58
     print("Seu peso ideal é %.2f quilos."%(pesoIdeal))
     input("Pressione enter para continuar...")
 
 def ex13():
+    print("Exercício 13.\n")
     altura = float(input("Digite sua altura em metros: "))
     sexo = input("Digite H se for homem ou M se for mulher: ")
     if sexo == "H" or sexo == "h":
@@ -102,6 +114,7 @@ def ex13():
     input("Pressione enter para continuar...")
 
 def ex14():
+    print("Exercício 14.\n")
     peso = float(input("Digite o peso dos peixes em quilos: "))
     if peso <= 50:
         print("Não há excesso, portanto não haverá multa.")
@@ -112,6 +125,7 @@ def ex14():
     input("Pressione enter para continuar...")
 
 def ex15():
+    print("Exercício 15.\n")
     salHora = float(input("Digite o quanto você ganha por hora em reais: "))
     horasTrabMes = float(input("Digite o número de horas que você trabalha por mês: "))
     salMesBruto = salHora * horasTrabMes
@@ -126,6 +140,7 @@ def ex15():
     input("Pressione enter para continuar...")
 
 def ex16():
+    print("Exercício 16.\n")
     area = float(input("Digite a área em metros quadrados a ser pintada: "))
     litros = area / 3
     if litros % 18 != 0:
@@ -137,6 +152,7 @@ def ex16():
     input("Pressione enter para continuar...")
 
 def ex17():
+    print("Exercício 17.\n")
     area = float(input("Digite a área em metros quadrados a ser pintada: "))
     litros = (area / 6) * 1.1
 
@@ -159,8 +175,13 @@ def ex17():
     input("Pressione enter para continuar...")
 
 def ex18():
+    print("Exercício 18.\n")
     tamanho = float(input("Digite o tamanho do arquivo em MB: "))
     velocidade = float(input("Digite a volocidade da internet em MBps: "))
     tempo = tamanho / velocidade
     print("O download demorará %.2f segundos para ser concluído."%(tempo))
+    input("Pressione enter para continuar...")
+
+if __name__ == "__main__":
+    print("Execute estruturaSequencial.py")
     input("Pressione enter para continuar...")
